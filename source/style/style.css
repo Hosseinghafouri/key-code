@@ -14,12 +14,13 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-bottom: 40px;
+	margin-top: 12vh;
 	height: 100px;
 }
 
 #heading h1 {
 	font-size: 60px;
+	font-weight: bolder;
 }
 
 #ascii {
@@ -72,4 +73,5 @@ body {
 	background: #00adfdc1;
 	padding: 20px;
 	border-radius: 15px;
+	font-weight: bolder;
 }

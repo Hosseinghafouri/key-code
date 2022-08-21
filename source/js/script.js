@@ -16,9 +16,8 @@ $.body.addEventListener('keydown', (event) => {
 	let getLocation = event.location;
 	let getWich = event.which;
 	let getCode = event.code;
-	console.log(getKey, getCode, getWich, getLocation);
 	title.innerHTML = "key code : " + getKey;
-	keyCode.innerHTML = getWich;
+	keyCode.innerHTML = getKey;
 	eventKey.innerHTML = getKey;
 	eventLocation.innerHTML = getLocation;
 	eventWhich.innerHTML = getWich;
